@@ -1,4 +1,4 @@
 .place__website {
-  width: 456px;
+  max-width: 456px;
   margin: 0;
 }

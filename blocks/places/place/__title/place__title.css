@@ -8,3 +8,17 @@
   color: #ffffff;
   grid-area: title;
 }
+
+@media screen and (max-width: 768px) {
+  .place__title {
+    font-size: 42px;
+    line-height: 46px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
+}

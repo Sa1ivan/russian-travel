@@ -1,15 +1,18 @@
 .cover__image {
-  margin: 0;
+  margin: 0 auto;
+  width: 100%;
   max-width: 1184px;
-  height: 740px;
+  max-height: 740px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 62.5vw;
   background-image: url(../../../images/cover-trains.jpg);
   background-size: cover;
-  position: relative;
-  z-index: 0;
   box-sizing: border-box;
 }
 
-.cover__image:hover:before{
+.cover__image:hover:before {
   content: "";
   position: absolute;
   top: 0;

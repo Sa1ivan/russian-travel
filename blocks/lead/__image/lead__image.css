@@ -1,18 +1,8 @@
 .lead__image {
-  max-width: 984px;
-  height: 615px;
+  width: 100%;
+  height: auto;
+  max-height: 615px;
   margin: 0 auto;
   object-fit: cover;
-}
-
-@media screen and (max-width: 768px) {
-  .lead__image {
-    margin: 0;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .lead__image {
-    margin: 0;
-  }
+  box-sizing: border-box;
 }
