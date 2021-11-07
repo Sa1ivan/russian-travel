@@ -1,0 +1,15 @@
+.place {
+  width: 984px;
+  margin-bottom: 80px;
+  display: grid;
+  grid-template-columns: 460px 1fr;
+  grid-template-areas:
+    "title website"
+    "image pharagraphs";
+  column-gap: 40px;
+  row-gap: 48px;
+}
+
+.place:last-child {
+  margin-bottom: 0;
+}

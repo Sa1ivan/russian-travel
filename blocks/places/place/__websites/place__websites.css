@@ -1,0 +1,7 @@
+.place__websites {
+  margin: 0;
+  width: 456px;
+  grid-area: website;
+  display: grid;
+  align-self: end;
+}
