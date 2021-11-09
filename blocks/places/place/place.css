@@ -4,6 +4,7 @@
   height: auto;
   margin-bottom: 80px;
   display: grid;
+  grid-template-columns: minmax(min-content, 460px);
   grid-template-areas:
     "title website"
     "image pharagraphs";
@@ -43,10 +44,11 @@
       "image"
       "pharagraphs";
     column-gap: 0;
+    grid-template-columns: minmax(min-content, auto);
     row-gap: 32px;
     margin: 0 auto 50px;
   }
   .place:last-child {
-    margin-bottom: 0;
+    margin-bottom: 0px;
   }
 }

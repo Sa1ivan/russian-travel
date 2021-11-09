@@ -1,6 +1,0 @@
-.place__websites {
-  margin: 0;
-  grid-area: website;
-  display: grid;
-  align-self: end;
-}

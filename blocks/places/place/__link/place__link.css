@@ -1,0 +1,16 @@
+.place__link {
+  margin: 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration-line: underline;
+  color: #ffffff;
+}
+
+.place__link:last-child {
+  margin-top: 12px;
+}
+
+
