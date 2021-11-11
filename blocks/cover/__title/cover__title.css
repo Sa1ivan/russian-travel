@@ -11,22 +11,10 @@
   z-index: 1;
 }
 
-@media screen and (max-width: 1024px) {
-  .cover__title{
-    padding-top: 145px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .cover__title{
-    padding-top: 115px;
-  }
-}
 
 
 @media screen and (max-width: 320px) {
   .cover__title {
-    padding-top: 33px;
     font-size: 32px;
     line-height: 35px;
   }

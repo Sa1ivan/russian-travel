@@ -1,14 +1,18 @@
 .header__leng-link {
   margin: 0;
-  font-family: 'Inter', Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
   line-height: 28px;
   color: #fff;
-
+  text-decoration: none;
 }
 
-.header__leng-link:last-child {
-  text-decoration: none;
+
+@media screen and (max-width: 320px) {
+  .header__leng-link {
+    font-size: 18px;
+    line-height: 20px;
+  }
 }

@@ -34,13 +34,13 @@
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .cover__image {
     min-height: 480px;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 320px) {
   .cover__image {
     min-height: 200px;
   }

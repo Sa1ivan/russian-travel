@@ -10,6 +10,7 @@
     "image pharagraphs";
   column-gap: 40px;
   row-gap: 48px;
+  box-sizing: border-box;
 }
 
 .place:last-child {
@@ -19,6 +20,7 @@
 
 @media screen and (max-width: 1024px) {
   .place {
+    grid-template-columns: 440px 1fr;
     column-gap: 32px;
   }
   .place:last-child {
@@ -28,6 +30,7 @@
 
 @media screen and (max-width: 768px) {
   .place {
+    grid-template-columns: 340px 1fr;
     column-gap: 28px;
     margin-bottom: 73px;
   }
