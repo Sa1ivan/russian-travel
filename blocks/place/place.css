@@ -39,6 +39,15 @@
   }
 }
 
+@media screen and (max-width: 720px) {
+  .place {
+    grid-template-columns: minmax(min-content, min-content);
+  }
+  .place:last-child {
+    margin-bottom: 0;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .place {
     grid-template-areas:
