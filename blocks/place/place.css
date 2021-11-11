@@ -41,7 +41,7 @@
 
 @media screen and (max-width: 720px) {
   .place {
-    grid-template-columns: minmax(min-content, min-content);
+    grid-template-columns: minmax(min-content, 1fr);
   }
   .place:last-child {
     margin-bottom: 0;
@@ -56,7 +56,7 @@
       "image"
       "pharagraphs";
     column-gap: 0;
-    grid-template-columns: minmax(min-content, auto);
+    grid-template-columns: minmax(min-content, 1fr);
     row-gap: 32px;
     margin: 0 auto 50px;
   }
