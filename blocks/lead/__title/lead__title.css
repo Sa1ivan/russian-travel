@@ -1,5 +1,6 @@
 .lead__title {
   margin: 0 auto 32px;
+  max-width: 720px;
   line-height: 100px;
   font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
