@@ -16,3 +16,6 @@ russian-travel - это проектная работа, которая пред
 2. Убедителсь, что у вас свежая версия браузера;
 3. Запустите `index.html`;
 
+## Ссылка на GitHub Pages:
+`https://sa1ivan.github.io/russian-travel/`.
+
