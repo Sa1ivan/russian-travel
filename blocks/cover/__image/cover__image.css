@@ -9,6 +9,7 @@
   background-image: url(../../../images/cover-trains.jpg);
   background-size: cover;
   box-sizing: border-box;
+  background-position: center;
 }
 
 .cover__image:before {

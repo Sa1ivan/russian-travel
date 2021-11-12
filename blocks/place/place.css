@@ -39,16 +39,8 @@
   }
 }
 
-@media screen and (max-width: 720px) {
-  .place {
-    grid-template-columns: minmax(min-content, 1fr);
-  }
-  .place:last-child {
-    margin-bottom: 0;
-  }
-}
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 720px) {
   .place {
     grid-template-areas:
       "title"
