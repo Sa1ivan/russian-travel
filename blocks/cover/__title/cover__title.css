@@ -17,3 +17,10 @@
     line-height: 35px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .cover__title{
+    display: flex;
+    justify-content: center;
+  }
+}
