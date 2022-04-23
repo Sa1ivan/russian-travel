@@ -3,5 +3,12 @@
   height: auto;
   object-fit: cover;
   margin: 0;
+  cursor: pointer;
+  opacity: 1;
+  transition: opacity, .3s linear;
 }
 
+.photo-grid__item:hover{
+  opacity: .6;
+  transition: opacity, .3s linear;
+}
